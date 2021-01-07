@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 20px 30%;
+}
+
+.member {
+    margin-bottom: 20px;
+    display: flex;
+    border: 1px solid #333333;
+}
+
+.name {
+    width: 80%;
+    font-size: 20px;
+}
+
+.add {
+    text-align: center;
+    width:30px;
+    height:30px;
+    margin-left:50px;
+    font-size: 20px;
+    border: 1px solid #333333;
+    border-radius: 30px;
+    padding-top:5px;
+}
+.add:hover{
+    cursor: pointer;
+}

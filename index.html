@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="app">
+        <!-- <login-screen></login-screen> -->
+        <!-- <register-screen></register-screen> -->
+        <chat-app></chat-app>
+        <!-- <add-conver></add-conver> -->
+    </div>
+    <script src="./index.js" type="module"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-storage.js"></script>
+    
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyC7WexJmUJ5w5Aksnf39vB8ic30HLBxh8E",
+            authDomain: "chat-app-50f0f.firebaseapp.com",
+            projectId: "chat-app-50f0f",
+            storageBucket: "chat-app-50f0f.appspot.com",
+            messagingSenderId: "1049592520951",
+            appId: "1:1049592520951:web:7a44104e4428b8129233f2"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+</body>
+</html>
